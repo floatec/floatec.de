@@ -1,0 +1,56 @@
+﻿{% extends "base.html" %}
+
+	{% block css %}
+	<style>
+	#menu_home{
+		background: #17b21b;
+		border-radius: 5px;
+	}
+	</style>
+	{% endblock %}
+
+{% block content %}
+<div id="featured-wrapper">
+  <div id="featured" class="container">
+		<header>Software Development that you love.</header>
+		<a href="android.html" class="button">Android</a><a href="games.html" class="button">Games</a><a href="talks.html" class="button button-alt">Talks</a></div>
+</div>
+
+<div id="page-wrapper">
+	<div  id="page" >
+		<div id="featured">
+			<h1>Some of my Projecs</h1>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="box-style"> <a href="#"><img src="http://floatec.de/img/PROMO_foobar.png" width="140" height="80" alt="" /></a>
+						<a href="android.html"><h3>Foobar Remote Control (Andorid)</h3></a>
+						<p>Allows you to control you foobar 2000 player with installed foo_httpcontrol addon(www.floatec.de/downloads/) with your android handy.</p>
+						</div>
+					<div class="box-style"> <a href="#"><img src="{{ STATIC_URL }}/images/gamejam.png" width="140" height="80" alt="" /></a>
+                        <a href="talks.html"><h3>Gamejam (Talks)</h3></a>
+						<p>Every Semester we organize an 5 Days Curse on the University of Applid Sience Mannheim. </p>
+						</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box-style"> <a href="#"><img src="http://www.ludumdare.com/compo/wp-content/compo2/233892/23011-shot1.png" width="140" height="80" alt="" /></a>
+                        <a href="games.html"><h3>Mini mal listic (Games)</h3></a>
+						<p>A prototyped game for the Ludum Dare Gamejam on the Gamelab of the HfG Karlsruhe.</p>
+						</div>
+					<div class="box-style"> <a href="#"><img src="http://floatec.de/img/PROMO_KFZ.png" width="140" height="80" alt="" /></a>
+                        <a href="android.html"><h3>KFZ Kennzeichen (Andorid)</h3></a>
+						<p>With over 200.000 Downloads one of the succeding german Apps to know where a car is from.</p>
+					</div>
+        
+        
+      
+        
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
+
