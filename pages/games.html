@@ -11,76 +11,134 @@
 
 
 {% block content %}
-<div id="page-wrapper">
-	<div id="page" class="container">
-		<div id="content">
-			<header>Games</header>
-			<div id="two-column">
-				<div id="tbox1">
-                    <div class="box-style"> <a href="#"><img src="http://www.ludumdare.com/compo/wp-content/compo2/233892/23011-shot1.png" width="140" height="80" alt="" /></a>
-                        <a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=23011"><h3>Mini mal listic (Games)</h3></a>
-                        <p>A prototyped game for the Ludum Dare Gamejam on the Gamelab of the HfG Karlsruhe.</p>
-                    </div>
-
-					<div class="box-style"> <a href="#"><img src="http://floatec.de/img/MENSA_promo.png" width="140" height="80" alt="" /></a>
-                        <a href="https://market.android.com/details?id=de.floatec.mensa#">
-                            <h3>
-                                <img style=" float: right ;border: 0px solid ; width: 65px; height: 30px;padding: 0px;background-color: transparent" alt="android market" src="http://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
-                                Mensa Mannheim
-                            </h3>
-                        </a>
-                        <p>Get the Menu for all Cafeterias in Mannheim directlly on your Smartphone.</p>
-                        <ul class="niceBox"><li>Mensa am Schloss (Uni,Universität)</li>
-                        <li>Mensa der Hochschule Mannheim</li>
-                        <li> DHBW
-                        Mensaria Metropol</li>
-                       <li>DHBW Käfertaler Straße</li>
-                        <li>Mensa der Musikhochschule</li></ul>
-						</div>
-				</div>
-				<div id="tbox2">
-                    <div class="box-style"> <a href="#"><img src="http://floatec.de/img/PROMO_KFZ.png" width="140" height="80" alt="" /></a>
-                        <a href="https://market.android.com/details?id=flaotec.KFZ_Kennzeichen&feature=search_result">
-                            <h3>
-                                <img style=" float: right ;border: 0px solid ; width: 65px; height: 30px;padding: 0px;background-color: transparent" alt="android market" src="http://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
-                                KFZ Kennzeichen D/A/CH/I/PL/F
-                         <a href="android.html" id="" title="android">android</a>   </h3>
-                        </a>
-                        <p>With over 200.000 Downloads one of the succeding german Apps to know where a car is from.
-                        <ul class="niceBox"> <li> sucht Stadt zu eingegebene Kennzeichen für Deutschland(auch alte Kennzeichen)</li>
-                            <li> sucht Stadt zu eingegebene Kennzeichen für Österreich</li>
-                            <li> sucht Stadt zu eingegebene Kennzeichen für Schweiz</li></li>
-                            <li> sucht Stadt zu eingegebene Kennzeichen für Italien(Neu!)</li>
-                            <li> sucht Stadt zu eingegebene Kennzeichen für Polen(Neu!)</li>
-                            <li> durch anklicken zeigt es die Region in Google Maps</li>
-                            <li> Länderkurzzeichen können gesucht werden</li>
-                            <li> Simple Rückwärtssuche</li>
-                            <li> Bundesländer können bei Deutschland Angezeigt werden</li>
-                            <li> app2sd</li>
-                            <li> benötigt keine Berechtigungen</li></ul>
-                    </div>
-					<div class="box-style">
-                        <a href="https://market.android.com/details?id=com.floatec.dbox">
-                            <h3>
-                                <img style=" float: right ;border: 0px solid ; width: 65px; height: 30px;padding: 0px;background-color: transparent" alt="android market" src="http://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
-                                Dbox II Multi Remote Control
-                            </h3>
-                        </a>
-                        <p>Control your up to 5 DBox 2 with your phone via Wi</p>
-                        <ul class="niceBox">
-                            <li>works with up to 5 boxes</li>
-                            <li>control all keys</li>
-                            <li>get infos about your box</li>
-                            <li>show the LCD display</li>
-                            <li>app2sd</li>
-                        </ul>
-                    </div>
-        
-      
-        
-        
-			</div>
-		</div>
+	<div class="center-cropped" 
+	     style="background-image: url('{{ STATIC_URL }}/images/games.jpg');width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;">
 	</div>
-</div>
+			<h1>Games</h1>
+			<div class="row">
+				<div class="col-md-8">
+				
+					<div class="jm-item second">
+						<div class="jm-item-wrapper">
+							<div class="jm-item-image">
+								<img src="{{ STATIC_URL }}/images/minimalistic.png" style="width:100%" alt="Mini mal listic" />
+								<div class="jm-item-description">
+										This game has been developed for the Ludum Dare game jam at the GameLab Karlsruhe. 
+
+										Enjoy :) 
+
+
+										"Minima Listic is the story of a small computer troll that decides that he has to make his life simple again. 
+										Help him in his attempt to bring simplicity back to his life by leading him and his pencils of doom 
+										through various pictures and levels, unlocking and leveling new tools as he goes. 
+
+										But beware of his enemies; the hipster, the art student and the babbitt are always on his tail." 
+										
+										<br><br>&bullet; libGDX<br>&bullet; Java
+									   <div class="jm-item-button"><a target="_BLANK" href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=23011">more</a></div>
+								</div>
+							</div>
+							<div class="jm-item-title">Mini mal listic (Games)</div>
+						</div>
+					</div>
+                   
+                </div>
+				<div class="col-md-4">
+				
+					<div class="jm-item second">
+						<div class="jm-item-wrapper">
+							<div class="jm-item-image">
+								<img src="{{ STATIC_URL }}/images/projectumbrella.jpg" style="width:100%" alt="Project Umbrella" />
+								<div class="jm-item-description">
+										A prototyped game for the GameJam IV at the HS Mannheim.
+										<br>
+										After an acident in the labretory of the Umbrella Project a big storm get to live and tries to make the world a better place in its own way.
+										<br><br>&bullet; love2d<br>&bullet; lua
+									   <div class="jm-item-button"><a target="_BLANK" href="https://github.com/floatec/project-umbrella">more</a></div>
+								</div>
+							</div>
+							<div class="jm-item-title">Project Umbrella (Games)</div>
+						</div>
+					</div>
+                   
+                </div>
+				
+				
+				<div class="col-md-4">
+				
+					<div class="jm-item second">
+						<div class="jm-item-wrapper">
+							<div class="jm-item-image">
+								<img src="{{ STATIC_URL }}/images/derhimmelistvoll.jpg" style="width:100%" alt="Der Himmel ist voll - die Hölle aber auch..." />
+								<div class="jm-item-description">
+										A prototyped game for the GameJam III at the HS Mannheim.
+										<br><br>&bullet; XNA 4.0<br>&bullet; C#
+									   <div class="jm-item-button"><a target="_BLANK" href="https://github.com/floatec/die-Hoelle-ist-voll">more</a></div>
+								</div>
+							</div>
+							<div class="jm-item-title">Der Himmel ist voll - die Hölle aber auch... (Games)</div>
+						</div>
+					</div>
+                   
+                </div>
+				
+				<div class="col-md-4">
+				
+					<div class="jm-item second">
+						<div class="jm-item-wrapper">
+							<div class="jm-item-image">
+								<img src="{{ STATIC_URL }}/images/heinrich.png" style="width:100%" alt="Metzgermeister Heinrich Hacker" />
+								<div class="jm-item-description">
+										A prototyped game for the GameJam at the GPN13.
+										<br><br>&bullet; lvoe2d<br>&bullet; lua
+									   <div class="jm-item-button"><a target="_BLANK" href="https://github.com/floatec/Metzgermeister-Heinrich-Hacker">more</a></div>
+								</div>
+							</div>
+							<div class="jm-item-title">Metzgermeister Heinrich Hacker (Games)</div>
+						</div>
+					</div>
+                   
+                </div>
+				
+				<div class="col-md-4">
+				
+					<div class="jm-item second">
+						<div class="jm-item-wrapper">
+							<div class="jm-item-image">
+								<img src="{{ STATIC_URL }}/images/mlspa.jpg" style="width:100%" alt="My little Steampunk Adventure" />
+								<div class="jm-item-description">
+										A prototyped game for the GameJam II at the HS Mannheim.
+										<br><br>&bullet; gameJS<br>&bullet; Javascript
+									   <div class="jm-item-button"><a target="_BLANK" href="https://github.com/floatec/My-little-Steampunk-adventure">more</a></div>
+									    <div class="jm-item-button"><a target="_BLANK" href="http://hsma.floatec.de/gamejam/mlspa/">play</a></div>
+								</div>
+							</div>
+							<div class="jm-item-title">My little Steampunk Adventure (Games)</div>
+						</div>
+					</div>
+                   
+                </div>
+				
+				<div class="col-md-4">
+				
+					<div class="jm-item second">
+						<div class="jm-item-wrapper">
+							<div class="jm-item-image">
+								<img src="http://globalgamejam.org/sites/default/files/styles/game_sidebar__wide/public/game/featured_image/splashbig.png?itok=e1nKACRx" style="width:100%" alt="Diversity" />
+								<div class="jm-item-description">
+										A prototyped game for the Global Gamejam 2014 at the HfG Karlsruhe.
+										<br><br>&bullet; gameJS<br>&bullet; javascriptbr>&bullet; ruby
+									   <div class="jm-item-button"><a target="_BLANK" href="http://globalgamejam.org/2014/games/diversity">more</a></div>
+								</div>
+							</div>
+							<div class="jm-item-title">Diversity (Games)</div>
+						</div>
+					</div>
+                   
+                </div>
+			</div>
+
 {% endblock %}
